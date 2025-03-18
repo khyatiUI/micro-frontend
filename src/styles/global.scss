@@ -62,6 +62,10 @@ button {
     }
 }
 
+.side-menu li.selected {
+    background: #fff;
+}
+
 .list-page {
     display: flex;
     justify-content: space-between;
@@ -97,9 +101,10 @@ button {
 }
 
 .side-menu li {
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .side-menu a {
